@@ -9,19 +9,25 @@ using namespace std;
 const int SCREEN_FPS = 30;
 
 
-bool Juego::iniciar(const char *title, int xpos, int ypos, int flags) {
+void Juego::iniciar(const char *title, int xpos, int ypos, int flags){
+
     entorno.iniciar(title,xpos,ypos,flags);
 }
 
 
 Juego::Juego(){
+  
 	running = false;
 	nanobot.asignar_x(POS_NANOBOT_X);
 	nanobot.asignar_y(POS_NANOBOT_Y);
 	lista = new Lista();
-    lectura_archivo(lista);
+  lectura_archivo(lista);
 }
+
+
+
 bool Juego::intersececion_n(Nanobot nanobot,Anticuerpo anticuerpo){
+
     if(anticuerpo.get_posicion_x()>nanobot.get_x()-NANOBOT_WIDTH && anticuerpo.get_posicion_x()<nanobot.get_x()+NANOBOT_WIDTH){
         if(anticuerpo.get_posicion_y()>nanobot.get_y()-NANOBOT_HEIGHT && anticuerpo.get_posicion_y()<nanobot.get_y()+NANOBOT_HEIGHT){
             return 1;
@@ -30,10 +36,12 @@ bool Juego::intersececion_n(Nanobot nanobot,Anticuerpo anticuerpo){
     return 0;
 }
 
+
+
 void Juego::correr() {
+
 	running = true;
 	FPSManager fpsManager(SCREEN_FPS);
-
 
 	while(running) {
 		fpsManager.start();
@@ -43,12 +51,17 @@ void Juego::correr() {
 	}
 }
 
-void Juego::renderizar() {
-	entorno.renderizarTodo(nanobot,lista);
 
+
+void Juego::renderizar() {
+
+	entorno.renderizarTodo(nanobot,lista);
 }
 
-void Juego::limpiar() {
+
+
+void Juego::limpiar(){
+
     entorno.limpiar();
 }
 
@@ -57,6 +70,7 @@ void Juego::limpiar() {
 // el metodo "isKeyDown(KEY)". Para saber que KEY pasar por parametro, consultar
 // el archivo "InputTable.h" que mapea codigos de teclado de SDL.
 void Juego::manejarEventos() {
+
 	InputManager* inputManager = InputManager::getInstance();
     inputManager->update();
     if(inputManager->quitRequested()) running = false;
@@ -93,4 +107,3 @@ void Juego::manejarEventos() {
     }
 
 }
-

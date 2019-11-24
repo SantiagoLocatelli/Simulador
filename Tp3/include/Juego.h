@@ -22,15 +22,19 @@ using namespace std;
 
 
 class Juego {
+
 private:
+
     bool running;
     Entorno entorno;
     Nanobot nanobot;
     Lista*  lista;
+    
 public:
+
     Juego();
     ~Juego(){}
-    bool iniciar(const char* titulo, int xPos, int yPos, int flags);
+    void iniciar(const char* titulo, int xPos, int yPos, int flags);
     void correr();
     void renderizar();
     void manejarEventos();

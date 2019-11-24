@@ -10,7 +10,7 @@ class Organismos : public Elementos{
 
         // PRE: Debe recibir una coordenada válida.
         // POS: Inicializará la posición del objeto.
-        Organismos(float posicion_x, float poscion_y);
+        Organismos(float posicion_x, float poscion_y, int id);
 
         Organismos();
 

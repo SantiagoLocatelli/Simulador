@@ -17,7 +17,7 @@ class Celula: public Organismos{
 
         // PRE: La coordenada debera estar dentro de la matriz, la inflamacion entre 0 y 100 (vale decimales).
         // POS: Inicializara un objeto celula con los parametros pasados.
-        Celula(float x, float y, bool _adn, bool _unicelular, float _inflamacion);
+        Celula(float x, float y, bool _adn, bool _unicelular, float _inflamacion, int id);
 
         virtual ~Celula();
 

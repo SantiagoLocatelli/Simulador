@@ -1,6 +1,6 @@
 #include "Celula.h"
 
-Celula::Celula(float x, float y, bool _adn, bool _unicelular, float _inflamacion):Organismos(x,y){
+Celula::Celula(float x, float y, bool _adn, bool _unicelular, float _inflamacion, int id):Organismos(x,y, id){
 
     adn = _adn;
     unicelular = _unicelular;
@@ -35,4 +35,3 @@ float Celula::obtener_inflamacion(){
 
     return (inflamacion);
 }
-

@@ -1,6 +1,6 @@
 #include "Dosis.h"
 
-Dosis::Dosis(int cantidad):Elementos(){
+Dosis::Dosis(int cantidad, int id):Elementos(id){
 
     this->cantidad = cantidad;
 }

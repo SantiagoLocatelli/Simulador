@@ -1,6 +1,6 @@
 #include "DosisA.h"
 
-DosisA::DosisA(int cantidad):Dosis(cantidad){
+DosisA::DosisA(int cantidad, int id):Dosis(cantidad, id){
 
 }
 

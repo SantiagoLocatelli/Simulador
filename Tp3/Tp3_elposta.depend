@@ -293,3 +293,175 @@
 	"InputManager.h"
 	<iostream>
 
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/main.cpp
+	<iostream>
+	"Juego.h"
+	"Nanobot.h"
+
+1574628854 /home/santiago/Desktop/Simulador/Tp3/include/Juego.h
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"FPSManager.h"
+	"Textura.h"
+	"InputManager.h"
+	"Entorno.h"
+	"Funciones.h"
+	<time.h>
+	<stdlib.h>
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/FPSManager.h
+	<SDL2/SDL.h>
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Textura.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<string>
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/InputManager.h
+	"SDL2/SDL.h"
+	"InputTable.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/InputTable.h
+	"SDL2/SDL.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Entorno.h
+	"Textura.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"ImageLoader.h"
+	"Nanobot.h"
+	"Funciones.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/ImageLoader.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"Textura.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Nanobot.h
+	"DosisA.h"
+	"DosisB.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/DosisA.h
+	"Dosis.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Dosis.h
+	"Elementos.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Elementos.h
+	<iostream>
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/DosisB.h
+	"Dosis.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Funciones.h
+	"CelulaX.h"
+	"CelulaY.h"
+	"CelulaS.h"
+	"CelulaZ.h"
+	"Anticuerpo.h"
+	"DosisA.h"
+	"DosisB.h"
+	"Lista.h"
+	<iostream>
+	<fstream>
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/CelulaX.h
+	"Celula.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Celula.h
+	"Organismos.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Organismos.h
+	"Elementos.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/CelulaY.h
+	"Celula.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/CelulaS.h
+	"Celula.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/CelulaZ.h
+	"Celula.h"
+
+1574619160 /home/santiago/Desktop/Simulador/Tp3/include/Anticuerpo.h
+	"Organismos.h"
+	<time.h>
+	<stdlib.h>
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Lista.h
+	"Nodo.h"
+	"Funciones.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Nodo.h
+	"Elementos.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Anticuerpo.cpp
+	"Anticuerpo.h"
+	"Constants.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Constants.h
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Celula.cpp
+	"Celula.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaS.cpp
+	"CelulaS.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaX.cpp
+	"CelulaX.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaY.cpp
+	"CelulaY.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaZ.cpp
+	"CelulaZ.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Class.cpp
+	"Class.h"
+
+1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Class.h
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Dosis.cpp
+	"Dosis.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/DosisA.cpp
+	"DosisA.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/DosisB.cpp
+	"DosisB.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Elementos.cpp
+	"Elementos.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Entorno.cpp
+	"Entorno.h"
+	<iostream>
+	"Constants.h"
+	"InputManager.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/FPSManager.cpp
+	"FPSManager.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Funciones.cpp
+	"Funciones.h"
+	"Lista.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/ImageLoader.cpp
+	"ImageLoader.h"
+	"ImageLoader.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/InputManager.cpp
+	"InputManager.h"
+	<iostream>
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Lista.cpp
+	"Lista.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Nodo.cpp
+	"Nodo.h"
+
+1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Organismos.cpp
+	"Organismos.h"
+

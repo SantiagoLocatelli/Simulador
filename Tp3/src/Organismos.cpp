@@ -1,6 +1,6 @@
 #include "Organismos.h"
 
-Organismos::Organismos(float x,float y){
+Organismos::Organismos(float x,float y, int id):Elementos(id){
 
     posicion[0] = x;
     posicion[1] = y;

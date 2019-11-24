@@ -1,6 +1,6 @@
 #include "CelulaY.h"
 
-CelulaY::CelulaY(float x,float y,bool adn,bool unicelular,float inflamacion):Celula(x,y,adn,unicelular,inflamacion){
+CelulaY::CelulaY(float x,float y,bool adn,bool unicelular,float inflamacion, int id):Celula(x,y,adn,unicelular,inflamacion, id){
 
 }
 

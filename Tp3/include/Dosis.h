@@ -9,7 +9,7 @@ class Dosis : public Elementos{
 
         // PRE: El entero recibido debe ser un valor valido.
         // POS: Inicilizara el objeto dosis con una cantidad de dosis pasada por parametro.
-        Dosis(int cantidad);
+        Dosis(int cantidad, int id);
 
         // PRE: El entero recibido debe ser un valor valido, es decir, positivo.
         // POS: Asignara el valor pasado a la cantidad.

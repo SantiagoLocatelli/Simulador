@@ -9,7 +9,7 @@ class CelulaY : public Celula{
 
         // PRE: La coordenada debera estar dentro de la matriz, la inflamacion entre 0 y 100 (vale decimales).
         // POS: Inicializara un objeto celula con los parametros pasados.
-        CelulaY(float x, float y, bool adn, bool unicelular, float inflamacion);
+        CelulaY(float x, float y, bool adn, bool unicelular, float inflamacion, int id);
 
         virtual ~CelulaY();
 

@@ -2,6 +2,9 @@
 #include "Lista.h"
 #define     TEJIDO_PATH     "Tejido.txt"
 
+enum imagenes{FONDO,NANOBOT,CELULA_S,CELULA_X,CELULA_Y,CELULA_Z,ANTICUERPO,DOSIS_A,DOSIS_B};
+
+
 using namespace std;
 
 int contador_vector(Nodo* vec[]){
@@ -36,16 +39,20 @@ void lectura_archivo(Lista* principal){
                 archivo>>pos_x;
                 archivo>>pos_y;
                 if(celula == 'S'){
-                    CelulaS* celula_s = new CelulaS(pos_x, pos_y,1, 0, 0);
+
+                    CelulaS* celula_s = new CelulaS(pos_x, pos_y,1, 0, 0, CELULA_S);
                     principal->alta(celula_s,cant_datos);
                 }else if(celula == 'X'){
-                    CelulaX* celula_x = new CelulaX(pos_x, pos_y, 1, 0, 20);
+
+                    CelulaX* celula_x = new CelulaX(pos_x, pos_y, 1, 0, 20, CELULA_X);
                     principal->alta(celula_x,cant_datos);
                 }else if(celula == 'Y'){
-                    CelulaY* celula_y = new CelulaY(pos_x, pos_y, 1, 0, 40);
+
+                    CelulaY* celula_y = new CelulaY(pos_x, pos_y, 1, 0, 40, CELULA_Y);
                     principal->alta(celula_y,cant_datos);
                 }else if(celula == 'Z'){
-                    CelulaZ* celula_z = new CelulaZ(pos_x, pos_y, 1, 0, 60, 100);
+
+                    CelulaZ* celula_z = new CelulaZ(pos_x, pos_y, 1, 0, 60, 100, CELULA_Z);
                     principal->alta(celula_z,cant_datos);
                 }
                 principal->llenar_vector(principal->obtener_nodo(cant_datos),cant_celulas);
@@ -69,10 +76,10 @@ void lectura_archivo(Lista* principal){
                 archivo>>tipo;
                 archivo>>cantidad;
                 if(tipo == 'A'){
-                    DosisA* dosis_a = new DosisA(cantidad);
+                    DosisA* dosis_a = new DosisA(cantidad, DosisA);
                     principal->alta(dosis_a,cant_datos);
                 }else{
-                    DosisB* dosis_b = new DosisB(cantidad);
+                    DosisB* dosis_b = new DosisB(cantidad, DosisB);
                     principal->alta(dosis_b,cant_datos);
                 }
                 cant_datos++;
@@ -80,7 +87,7 @@ void lectura_archivo(Lista* principal){
             else if(dato == "anticuerpo"){                              //Si es un anticuerpo sumo el contador de anticuerpos
                 archivo>>pos_x;
                 archivo>>pos_y;
-                Anticuerpo* anticuerpo = new Anticuerpo(pos_x, pos_y);
+                Anticuerpo* anticuerpo = new Anticuerpo(pos_x, pos_y, ANTICUERPO);
                 principal->alta(anticuerpo,cant_datos);
                 cant_datos++;
             }

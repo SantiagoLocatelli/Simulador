@@ -7,11 +7,19 @@ class Elementos{
 
     private:
 
+      int id_elemento;
+
     public:
 
         // PRE: --------------------------------.
         // POS: --------------------------------.
         Elementos();
+
+        Elementos( int id );
+
+        obtener_id();
+
+        establecer_id(int id);
 
         // PRE: --------------------------------.
         // POS: Mostrara por pantalla los atributos del elemento.

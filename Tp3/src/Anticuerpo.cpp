@@ -23,7 +23,7 @@ Es una convencion tomada para el movimiento aleatorio del anticuerpo.
 */
 
 
-Anticuerpo::Anticuerpo(float x,float y):Organismos(x,y){
+Anticuerpo::Anticuerpo(float x,float y, int id):Organismos(x,y,id){
 
     asignar_tamanio(28,30);
 }
@@ -38,12 +38,20 @@ void Anticuerpo::mostrar(){
     cout<<"Anticuerpo:"<<endl;
     Organismos::mostrar();
 }
+
+
 void Anticuerpo::asignar_moverse(bool moverse){
+
     this->moverse = moverse;
 }
+
+
 bool Anticuerpo::obtener_moverse(){
+
     return moverse;
 }
+
+
 void Anticuerpo::mover(){
 
     float posicion_x = Organismos::get_posicion_x();
@@ -52,7 +60,7 @@ void Anticuerpo::mover(){
     char cont_up,cont_down,cont_left,cont_rigth = 0;
 
 
-    int direccion = rand()%8; // esto devuelve un numero aleatorio entre 0 y 3
+    int direccion = rand()%8; // esto devuelve un numero aleatorio entre 0 y 7
 
    // BRODAS le puse 5 nomas, porque me parecia que con 10 se iba a mover re loco mal, pero eso solo es cambiar a la velcidad y nada mas.
    if(moverse == 1){

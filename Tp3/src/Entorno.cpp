@@ -108,9 +108,9 @@ Entorno::~Entorno()
 }
 //,Celula* c1,Celula* c2,Celula* c3
 
-void Entorno::renderizarTodo(Nanobot nanobot,Lista* lista)
-{
-    SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF);
+void Entorno::renderizarTodo(Nanobot nanobot,Lista* lista){
+
+  SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF);
 	SDL_RenderClear(renderer); // clear the renderer to the draw color
 	renderizar(FONDO,0,0);
 	renderizar(NANOBOT,nanobot.get_x(),nanobot.get_y());
@@ -121,14 +121,23 @@ void Entorno::renderizarTodo(Nanobot nanobot,Lista* lista)
 
     //Inserte codigo para dibujar lineas
     for(int i=1;i<=lista->obtener_cantidad_celulas();i++){
-        SDL_RenderDrawLine(renderer,obtener_posicion_x(lista,i-1)+(CELULA_SIZE/2),obtener_posicion_y(lista,i-1)+(CELULA_SIZE/2),obtener_posicion_x(lista,i)+(CELULA_SIZE/2),obtener_posicion_y(lista,i)+(CELULA_SIZE/2));
-        if(i%2!=0 &&  i!= 1)
+        SDL_RenderDrawLine(renderer, obtener_posicion_x(lista,i-1)+(CELULA_SIZE/2), obtener_posicion_y(lista,i-1)+(CELULA_SIZE/2), obtener_posicion_x(lista,i)+(CELULA_SIZE/2), obtener_posicion_y(lista,i)+(CELULA_SIZE/2));
+        if( (i%2 != 0) && (i != 1) )
             SDL_RenderDrawLine(renderer,obtener_posicion_x(lista,i-2)+(CELULA_SIZE/2),obtener_posicion_y(lista,i-2)+(CELULA_SIZE/2),obtener_posicion_x(lista,i)+(CELULA_SIZE/2),obtener_posicion_y(lista,i)+(CELULA_SIZE/2));
     }
 
     //Inserte codigo para renderizar imagenes
     for(int i=1;i<=lista->obtener_tamanio();i++){
         //Pense un switch case para graficar segun lo que tenga que graficar pero no supo como hacerlo
+
+        Nodo* nodo = lista->obtener_nodo();
+        Elementos* elemento = nodo->obtener_dato();
+
+        int id = elemento->obtener_id();
+        int pos_x = elemento->get_posicion_x();
+        int pos_y = elemento->get_posicion_y();
+
+        renderizar( id, pos_x, pos_y );
     }
 
 	SDL_RenderPresent(renderer); // draw to the screen
