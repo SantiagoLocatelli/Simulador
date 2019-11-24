@@ -127,10 +127,12 @@ void Entorno::renderizarTodo(Nanobot nanobot,Lista* lista){
     }
 
     //Inserte codigo para renderizar imagenes
-    for(int i=1;i<=lista->obtener_tamanio();i++){
+    int i = 0;
+    Nodo* nodo = lista->obtener_nodo(1);
+    
+    while( i < lista->obtener_tamanio() ){
         //Pense un switch case para graficar segun lo que tenga que graficar pero no supo como hacerlo
 
-        Nodo* nodo = lista->obtener_nodo();
         Elementos* elemento = nodo->obtener_dato();
 
         int id = elemento->obtener_id();
@@ -138,6 +140,9 @@ void Entorno::renderizarTodo(Nanobot nanobot,Lista* lista){
         int pos_y = elemento->get_posicion_y();
 
         renderizar( id, pos_x, pos_y );
+
+        nodo = nodo->obtener_siguiente();
+        i++;
     }
 
 	SDL_RenderPresent(renderer); // draw to the screen
