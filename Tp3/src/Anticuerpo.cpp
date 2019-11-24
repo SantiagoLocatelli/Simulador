@@ -23,7 +23,7 @@ Es una convencion tomada para el movimiento aleatorio del anticuerpo.
 */
 
 
-Anticuerpo::Anticuerpo(float x,float y, int id):Organismos(x,y,id){
+Anticuerpo::Anticuerpo(float x,float y, id_elementos id):Organismos(x,y,id){
 
     asignar_tamanio(28,30);
 }

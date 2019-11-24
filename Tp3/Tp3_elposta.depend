@@ -293,7 +293,7 @@
 	"InputManager.h"
 	<iostream>
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/main.cpp
+1574631445 source:/home/santiago/Desktop/Simulador/Tp3/main.cpp
 	<iostream>
 	"Juego.h"
 	"Nanobot.h"
@@ -343,16 +343,16 @@
 	"DosisA.h"
 	"DosisB.h"
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/DosisA.h
+1574634910 /home/santiago/Desktop/Simulador/Tp3/include/DosisA.h
 	"Dosis.h"
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Dosis.h
+1574634905 /home/santiago/Desktop/Simulador/Tp3/include/Dosis.h
 	"Elementos.h"
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Elementos.h
+1574635913 /home/santiago/Desktop/Simulador/Tp3/include/Elementos.h
 	<iostream>
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/DosisB.h
+1574634915 /home/santiago/Desktop/Simulador/Tp3/include/DosisB.h
 	"Dosis.h"
 
 1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Funciones.h
@@ -367,25 +367,25 @@
 	<iostream>
 	<fstream>
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/CelulaX.h
+1574634884 /home/santiago/Desktop/Simulador/Tp3/include/CelulaX.h
 	"Celula.h"
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Celula.h
+1574634871 /home/santiago/Desktop/Simulador/Tp3/include/Celula.h
 	"Organismos.h"
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Organismos.h
+1574634813 /home/santiago/Desktop/Simulador/Tp3/include/Organismos.h
 	"Elementos.h"
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/CelulaY.h
+1574634890 /home/santiago/Desktop/Simulador/Tp3/include/CelulaY.h
 	"Celula.h"
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/CelulaS.h
+1574634878 /home/santiago/Desktop/Simulador/Tp3/include/CelulaS.h
 	"Celula.h"
 
-1574618661 /home/santiago/Desktop/Simulador/Tp3/include/CelulaZ.h
+1574634897 /home/santiago/Desktop/Simulador/Tp3/include/CelulaZ.h
 	"Celula.h"
 
-1574619160 /home/santiago/Desktop/Simulador/Tp3/include/Anticuerpo.h
+1574634862 /home/santiago/Desktop/Simulador/Tp3/include/Anticuerpo.h
 	"Organismos.h"
 	<time.h>
 	<stdlib.h>
@@ -397,25 +397,25 @@
 1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Nodo.h
 	"Elementos.h"
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Anticuerpo.cpp
+1574634951 source:/home/santiago/Desktop/Simulador/Tp3/src/Anticuerpo.cpp
 	"Anticuerpo.h"
 	"Constants.h"
 
 1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Constants.h
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Celula.cpp
+1574634958 source:/home/santiago/Desktop/Simulador/Tp3/src/Celula.cpp
 	"Celula.h"
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaS.cpp
+1574634964 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaS.cpp
 	"CelulaS.h"
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaX.cpp
+1574634970 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaX.cpp
 	"CelulaX.h"
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaY.cpp
+1574634980 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaY.cpp
 	"CelulaY.h"
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaZ.cpp
+1574634989 source:/home/santiago/Desktop/Simulador/Tp3/src/CelulaZ.cpp
 	"CelulaZ.h"
 
 1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Class.cpp
@@ -423,19 +423,19 @@
 
 1574618661 /home/santiago/Desktop/Simulador/Tp3/include/Class.h
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Dosis.cpp
+1574634997 source:/home/santiago/Desktop/Simulador/Tp3/src/Dosis.cpp
 	"Dosis.h"
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/DosisA.cpp
+1574635008 source:/home/santiago/Desktop/Simulador/Tp3/src/DosisA.cpp
 	"DosisA.h"
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/DosisB.cpp
+1574635015 source:/home/santiago/Desktop/Simulador/Tp3/src/DosisB.cpp
 	"DosisB.h"
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Elementos.cpp
+1574635928 source:/home/santiago/Desktop/Simulador/Tp3/src/Elementos.cpp
 	"Elementos.h"
 
-1574618661 source:/home/santiago/Desktop/Simulador/Tp3/src/Entorno.cpp
+1574635895 source:/home/santiago/Desktop/Simulador/Tp3/src/Entorno.cpp
 	"Entorno.h"
 	<iostream>
 	"Constants.h"

@@ -2,22 +2,22 @@
 
 Elementos::Elementos(){
 
-  id_elemento = 0;
+  id = NADA;
 }
 
-Elementos::Elementos( int id ){
+Elementos::Elementos( id_elementos id ){
 
-  id_elemento = id;
+  this->id = id;
 }
 
-void Elementos::establecer_id( int id ){
+void Elementos::establecer_id( id_elementos id ){
 
-  id_elemento = id;
+  this->id = id;
 }
 
-int Elementos::obtener_id(){
+id_elementos Elementos::obtener_id(){
 
-  return id_elemento;
+  return id;
 }
 
 void Elementos::mostrar(){

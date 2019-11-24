@@ -11,7 +11,7 @@ class Anticuerpo: public Organismos{
 
         // PRE: Debe recibir una coordenada que este dentro de la matriz.
         // POS: Iniciliazara la posicion del objeto.
-        Anticuerpo(float x, float , int id);
+        Anticuerpo(float x, float , id_elementos id);
         Anticuerpo();
 
         virtual ~Anticuerpo();

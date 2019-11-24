@@ -3,11 +3,14 @@
 #include <iostream>
 using namespace std;
 
+// Empieza en 2 para que coincida con el enumerado imagenes de entorno.
+enum id_elementos{CEL_S = 2,CEL_X,CEL_Y,CEL_Z,ANTI_CUERPO,DOSI_A,DOSI_B,NADA};
+
 class Elementos{
 
     private:
 
-      int id_elemento;
+      id_elementos id;
 
     public:
 
@@ -15,11 +18,11 @@ class Elementos{
         // POS: --------------------------------.
         Elementos();
 
-        Elementos( int id );
+        Elementos( id_elementos id );
 
-        obtener_id();
+        id_elementos obtener_id();
 
-        establecer_id(int id);
+        void establecer_id(id_elementos id);
 
         // PRE: --------------------------------.
         // POS: Mostrara por pantalla los atributos del elemento.

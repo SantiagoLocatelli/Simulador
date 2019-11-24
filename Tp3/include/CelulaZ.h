@@ -9,7 +9,7 @@ class CelulaZ: public Celula{
 
         // PRE: La coordenada debera estar dentro de la matriz, la inflamacion entre 0 y 100 (vale decimales).
         // POS: Inicializara un objeto celula con los parametros pasados.
-        CelulaZ(float x, float y, bool adn, bool unicelular, float _mutacion, float inflamacion, int id);
+        CelulaZ(float x, float y, bool adn, bool unicelular, float _mutacion, float inflamacion, id_elementos id);
 
         virtual ~CelulaZ();
 

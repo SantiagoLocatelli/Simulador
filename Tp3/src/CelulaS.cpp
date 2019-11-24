@@ -1,6 +1,6 @@
 #include "CelulaS.h"
 
-CelulaS::CelulaS(float x, float y, bool adn, bool unicelular, float inflamacion, int id):Celula(x,y,adn,unicelular,inflamacion, id){
+CelulaS::CelulaS(float x, float y, bool adn, bool unicelular, float inflamacion, id_elementos id):Celula(x,y,adn,unicelular,inflamacion, id){
 
 }
 

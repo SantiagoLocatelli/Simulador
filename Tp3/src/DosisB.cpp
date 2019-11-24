@@ -1,6 +1,6 @@
 #include "DosisB.h"
 
-DosisB::DosisB(int cantidad, int id):Dosis(cantidad, id){
+DosisB::DosisB(int cantidad, id_elementos id):Dosis(cantidad, id){
     //ctor
 }
 

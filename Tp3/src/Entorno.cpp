@@ -129,17 +129,17 @@ void Entorno::renderizarTodo(Nanobot nanobot,Lista* lista){
     //Inserte codigo para renderizar imagenes
     int i = 0;
     Nodo* nodo = lista->obtener_nodo(1);
-    
+
     while( i < lista->obtener_tamanio() ){
         //Pense un switch case para graficar segun lo que tenga que graficar pero no supo como hacerlo
 
         Elementos* elemento = nodo->obtener_dato();
 
-        int id = elemento->obtener_id();
+        id_elementos id = elemento->obtener_id();
         int pos_x = elemento->get_posicion_x();
         int pos_y = elemento->get_posicion_y();
 
-        renderizar( id, pos_x, pos_y );
+        renderizar( (imagenes)id, pos_x, pos_y );
 
         nodo = nodo->obtener_siguiente();
         i++;

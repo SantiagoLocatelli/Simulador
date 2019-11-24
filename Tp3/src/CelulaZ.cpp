@@ -1,6 +1,6 @@
 #include "CelulaZ.h"
 
-CelulaZ::CelulaZ(float x, float y, bool adn, bool unicelular, float _mutacion, float inflamacion, int id):Celula(x, y, adn, unicelular, inflamacion, id){
+CelulaZ::CelulaZ(float x, float y, bool adn, bool unicelular, float _mutacion, float inflamacion, id_elementos id):Celula(x, y, adn, unicelular, inflamacion, id){
 
     mutacion = _mutacion;
 }

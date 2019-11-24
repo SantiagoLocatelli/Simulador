@@ -8,7 +8,7 @@ class DosisA: public Dosis
 
         // PRE: El entero recibido debe ser un valor valido.
         // POS: Inicilizara el objeto dosis con una cantidad de dosis pasada por parametro.
-        DosisA(int cantidad, int id);
+        DosisA(int cantidad, id_elementos id);
 
         virtual ~DosisA();
 
