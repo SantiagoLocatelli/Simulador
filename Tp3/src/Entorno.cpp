@@ -135,10 +135,12 @@ void Entorno::renderizarTodo(Nanobot nanobot,Lista* lista){
 
         Elementos* elemento = nodo->obtener_dato();
 
+        // id_elementos es el enumerado de elementos,
         id_elementos id = elemento->obtener_id();
         int pos_x = elemento->get_posicion_x();
         int pos_y = elemento->get_posicion_y();
 
+        // (imagenes)id castea de id_elementos a imagenes.
         renderizar( (imagenes)id, pos_x, pos_y );
 
         nodo = nodo->obtener_siguiente();
