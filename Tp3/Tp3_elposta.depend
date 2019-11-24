@@ -1,0 +1,295 @@
+# depslib dependency file v1.0
+1574571716 source:c:\users\tomas\documents\tp3_elposta\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1574544857 .h"
+
+1574567926 c:\users\tomas\documents\tp3_elposta\include\lista.h
+	"Nodo.h"
+	"Funciones.h"
+
+1574567926 c:\users\tomas\documents\tp3_elposta\include\nodo.h
+	"Elementos.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\elementos.h
+	<iostream>
+
+1574560218 
+
+1574609107 c:\users\tomas\documents\tp3_elposta\include\funciones.h
+	"CelulaX.h"
+	"CelulaY.h"
+	"CelulaS.h"
+	"CelulaZ.h"
+	"Anticuerpo.h"
+	"DosisA.h"
+	"DosisB.h"
+	"Lista.h"
+	<iostream>
+	<fstream>
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\celulax.h
+	"Celula.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\celula.h
+	"Organismos.h"
+
+1574544857 s.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\organismos.h
+	"Elementos.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\celulay.h
+	"Celula.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\celulas.h
+	"Celula.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\celulaz.h
+	"Celula.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\anticuerpo.h
+	"Organismos.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\dosisa.h
+	"Dosis.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\dosis.h
+	"Elementos.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\dosisb.h
+	"Dosis.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\anticuerpo.cpp
+	"Anticuerpo.h"
+
+1574544857 o.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\celula.cpp
+	"Celula.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\celulas.cpp
+	"CelulaS.h"
+
+1574544857 "
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\celulax.cpp
+	"CelulaX.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\celulay.cpp
+	"CelulaY.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\celulaz.cpp
+	"CelulaZ.h"
+
+1574548081 source:c:\users\tomas\documents\tp3_elposta\src\class.cpp
+	"Class.h"
+
+1574548081 c:\users\tomas\documents\tp3_elposta\include\class.h
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\dosis.cpp
+	"Dosis.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\dosisa.cpp
+	"DosisA.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\dosisb.cpp
+	"DosisB.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\elementos.cpp
+	"Elementos.h"
+
+1574604762 source:c:\users\tomas\documents\tp3_elposta\src\funciones.cpp
+	"Funciones.h"
+	"Lista.h"
+
+1574561023 source:c:\users\tomas\documents\tp3_elposta\src\lista.cpp
+	"Lista.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\menu.cpp
+	<iostream>
+	"Menu.h"
+	"Funciones.h"
+
+1574544857 c:\users\tomas\documents\tp3_elposta\include\menu.h
+	"Funciones.h"
+
+1574560218 source:c:\users\tomas\documents\tp3_elposta\src\nodo.cpp
+	"Nodo.h"
+
+1574544857 source:c:\users\tomas\documents\tp3_elposta\src\organismos.cpp
+	"Organismos.h"
+
+1574366635 source:/home/tomas/Descargas/Tp3_elposta/src/Anticuerpo.cpp
+	"Anticuerpo.h"
+	"Constants.h"
+
+1574365558 /home/tomas/Descargas/Tp3_elposta/include/Anticuerpo.h
+	"Organismos.h"
+	<time.h>
+	<stdlib.h>
+
+1574343379 /home/tomas/Descargas/Tp3_elposta/include/Organismos.h
+	"Elementos.h"
+
+1574612514 /home/tomas/Descargas/Tp3_elposta/include/Elementos.h
+	<iostream>
+
+1574544856 source:/home/tomas/Descargas/Tp3_elposta/src/Celula.cpp
+	"Celula.h"
+
+1574544856 /home/tomas/Descargas/Tp3_elposta/include/Celula.h
+	"Organismos.h"
+
+1574544856 source:/home/tomas/Descargas/Tp3_elposta/src/CelulaS.cpp
+	"CelulaS.h"
+
+1574544856 /home/tomas/Descargas/Tp3_elposta/include/CelulaS.h
+	"Celula.h"
+
+1574544856 source:/home/tomas/Descargas/Tp3_elposta/src/CelulaX.cpp
+	"CelulaX.h"
+
+1574544856 /home/tomas/Descargas/Tp3_elposta/include/CelulaX.h
+	"Celula.h"
+
+1574544856 source:/home/tomas/Descargas/Tp3_elposta/src/CelulaY.cpp
+	"CelulaY.h"
+
+1574544856 /home/tomas/Descargas/Tp3_elposta/include/CelulaY.h
+	"Celula.h"
+
+1574544856 source:/home/tomas/Descargas/Tp3_elposta/src/CelulaZ.cpp
+	"CelulaZ.h"
+
+1574544856 /home/tomas/Descargas/Tp3_elposta/include/CelulaZ.h
+	"Celula.h"
+
+1574548080 source:/home/tomas/Descargas/Tp3_elposta/src/Class.cpp
+	"Class.h"
+
+1574548080 /home/tomas/Descargas/Tp3_elposta/include/Class.h
+
+1574544856 source:/home/tomas/Descargas/Tp3_elposta/src/Dosis.cpp
+	"Dosis.h"
+
+1574544856 /home/tomas/Descargas/Tp3_elposta/include/Dosis.h
+	"Elementos.h"
+
+1574544856 source:/home/tomas/Descargas/Tp3_elposta/src/DosisA.cpp
+	"DosisA.h"
+
+1574544856 /home/tomas/Descargas/Tp3_elposta/include/DosisA.h
+	"Dosis.h"
+
+1574544856 source:/home/tomas/Descargas/Tp3_elposta/src/DosisB.cpp
+	"DosisB.h"
+
+1574544856 /home/tomas/Descargas/Tp3_elposta/include/DosisB.h
+	"Dosis.h"
+
+1574544856 source:/home/tomas/Descargas/Tp3_elposta/src/Elementos.cpp
+	"Elementos.h"
+
+1574609106 source:/home/tomas/Descargas/Tp3_elposta/src/Funciones.cpp
+	"Funciones.h"
+	"Lista.h"
+
+1574609106 /home/tomas/Descargas/Tp3_elposta/include/Funciones.h
+	"CelulaX.h"
+	"CelulaY.h"
+	"CelulaS.h"
+	"CelulaZ.h"
+	"Anticuerpo.h"
+	"DosisA.h"
+	"DosisB.h"
+	"Lista.h"
+	<iostream>
+	<fstream>
+
+1574610864 /home/tomas/Descargas/Tp3_elposta/include/Lista.h
+	"Nodo.h"
+	"Funciones.h"
+
+1574567926 /home/tomas/Descargas/Tp3_elposta/include/Nodo.h
+	"Elementos.h"
+
+1574561022 source:/home/tomas/Descargas/Tp3_elposta/src/Lista.cpp
+	"Lista.h"
+
+1574560218 source:/home/tomas/Descargas/Tp3_elposta/src/Nodo.cpp
+	"Nodo.h"
+
+1574343341 source:/home/tomas/Descargas/Tp3_elposta/src/Organismos.cpp
+	"Organismos.h"
+
+1574365451 source:/home/tomas/Descargas/Tp3_elposta/main.cpp
+	<iostream>
+	"Juego.h"
+	"Nanobot.h"
+
+1574610226 /home/tomas/Descargas/Tp3_elposta/include/Constants.h
+
+1574610479 /home/tomas/Descargas/Tp3_elposta/include/Juego.h
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"FPSManager.h"
+	"Textura.h"
+	"InputManager.h"
+	"Entorno.h"
+	"Funciones.h"
+	<time.h>
+	<stdlib.h>
+
+1570934308 /home/tomas/Descargas/Tp3_elposta/include/FPSManager.h
+	<SDL2/SDL.h>
+
+1569961550 /home/tomas/Descargas/Tp3_elposta/include/Textura.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<string>
+
+1570933852 /home/tomas/Descargas/Tp3_elposta/include/InputManager.h
+	"SDL2/SDL.h"
+	"InputTable.h"
+
+1570934406 /home/tomas/Descargas/Tp3_elposta/include/InputTable.h
+	"SDL2/SDL.h"
+
+1574610535 /home/tomas/Descargas/Tp3_elposta/include/Entorno.h
+	"Textura.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"ImageLoader.h"
+	"Nanobot.h"
+	"Lista.h"
+
+1571082782 /home/tomas/Descargas/Tp3_elposta/include/ImageLoader.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"Textura.h"
+
+1574182926 /home/tomas/Descargas/Tp3_elposta/include/Nanobot.h
+	"DosisA.h"
+	"DosisB.h"
+
+1574368702 source:/home/tomas/Descargas/Tp3_elposta/src/Entorno.cpp
+	"Entorno.h"
+	<iostream>
+	"Constants.h"
+	"InputManager.h"
+
+1570934300 source:/home/tomas/Descargas/Tp3_elposta/src/FPSManager.cpp
+	"FPSManager.h"
+
+1571082782 source:/home/tomas/Descargas/Tp3_elposta/src/ImageLoader.cpp
+	"ImageLoader.h"
+	"ImageLoader.h"
+
+1570933852 source:/home/tomas/Descargas/Tp3_elposta/src/InputManager.cpp
+	"InputManager.h"
+	<iostream>
+
