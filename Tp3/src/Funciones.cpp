@@ -96,3 +96,11 @@ void lectura_archivo(Lista* principal){
     else
         cout <<"-----------------------------------------\nNo se ha podido cargar el archivo correctamente"<< endl;
 }
+
+int obtener_posicion_x(Lista* lista,int i){
+    return lista->obtener_nodo_vector(i)->obtener_dato()->get_posicion_x();
+}
+
+int obtener_posicion_y(Lista* lista,int i){
+    return lista->obtener_nodo_vector(i)->obtener_dato()->get_posicion_y();
+}

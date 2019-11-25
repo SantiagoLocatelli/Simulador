@@ -16,7 +16,7 @@ void Juego::iniciar(const char *title, int xpos, int ypos, int flags){
 
 
 Juego::Juego(){
-  
+
 	running = false;
 	nanobot.asignar_x(POS_NANOBOT_X);
 	nanobot.asignar_y(POS_NANOBOT_Y);
@@ -83,12 +83,12 @@ void Juego::manejarEventos() {
     {
         entorno.explotarDosis(B);
     }
-    if((inputManager->isKeyDown(KEY_SPACE)) && intersececion_n(nanobot,anticuerpo)){
+    /*if((inputManager->isKeyDown(KEY_SPACE)) && intersececion_n(nanobot,anticuerpo)){
         if(anticuerpo.obtener_moverse() == 1)
             anticuerpo.asignar_moverse(0);
         else
             anticuerpo.asignar_moverse(1);
-    }
+    }*/
     if(inputManager->isKeyDown(KEY_RIGHT) && nanobot.get_x()<(SCREEN_WIDTH-NANOBOT_WIDTH))
     {
         nanobot.rigth();

@@ -7,8 +7,8 @@
 class Nanobot {
 
 private:
-    DosisA dosisA;
-    DosisB dosisB;
+    DosisA* dosisA;
+    DosisB* dosisB;
     int pos_x,pos_y;
 
 public:

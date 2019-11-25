@@ -3,7 +3,6 @@
 
 Lista::Lista(){
     primero = 0;
-    tamanio = 0;
     cant_elementos=0;
     cant_celulas=0;
 }

@@ -5,7 +5,6 @@
 const int MAX = 1000;
 
 #include "Nodo.h"
-#include "Funciones.h"
 
 class Lista{
 
