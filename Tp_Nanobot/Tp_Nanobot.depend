@@ -1,0 +1,186 @@
+# depslib dependency file v1.0
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/main.cpp
+	<iostream>
+	"Juego.h"
+	"Nanobot.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Juego.h
+	<SDL2/SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"FPSManager.h"
+	"Textura.h"
+	"InputManager.h"
+	"Entorno.h"
+	"Funciones.h"
+	<time.h>
+	<stdlib.h>
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/FPSManager.h
+	<SDL2/SDL.h>
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Textura.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<string>
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/InputManager.h
+	"SDL2/SDL.h"
+	"InputTable.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/InputTable.h
+	"SDL2/SDL.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Entorno.h
+	"Textura.h"
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	"ImageLoader.h"
+	"Nanobot.h"
+	"Funciones.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/ImageLoader.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"Textura.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Nanobot.h
+	"DosisA.h"
+	"DosisB.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/DosisA.h
+	"Dosis.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Dosis.h
+	"Elementos.h"
+
+1574711305 /home/tomas/Documentos/Tp_Nanobot/include/Elementos.h
+	<iostream>
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/DosisB.h
+	"Dosis.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Funciones.h
+	"CelulaX.h"
+	"CelulaY.h"
+	"CelulaS.h"
+	"CelulaZ.h"
+	"Anticuerpo.h"
+	"DosisA.h"
+	"DosisB.h"
+	"Lista.h"
+	<iostream>
+	<fstream>
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/CelulaX.h
+	"Celula.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Celula.h
+	"Organismos.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Organismos.h
+	"Elementos.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/CelulaY.h
+	"Celula.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/CelulaS.h
+	"Celula.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/CelulaZ.h
+	"Celula.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Anticuerpo.h
+	"Organismos.h"
+	<time.h>
+	<stdlib.h>
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Lista.h
+	"Nodo.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Nodo.h
+	"Elementos.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Anticuerpo.cpp
+	"Anticuerpo.h"
+	"Constants.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Constants.h
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Celula.cpp
+	"Celula.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/CelulaS.cpp
+	"CelulaS.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/CelulaX.cpp
+	"CelulaX.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/CelulaY.cpp
+	"CelulaY.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/CelulaZ.cpp
+	"CelulaZ.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Dosis.cpp
+	"Dosis.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/DosisA.cpp
+	"DosisA.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/DosisB.cpp
+	"DosisB.h"
+
+1574711187 source:/home/tomas/Documentos/Tp_Nanobot/src/Elementos.cpp
+	"Elementos.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Entorno.cpp
+	"Entorno.h"
+	<iostream>
+	"Constants.h"
+	"InputManager.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/FPSManager.cpp
+	"FPSManager.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Funciones.cpp
+	"Funciones.h"
+	"Lista.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/ImageLoader.cpp
+	"ImageLoader.h"
+	"ImageLoader.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/InputManager.cpp
+	"InputManager.h"
+	<iostream>
+
+1574710709 source:/home/tomas/Documentos/Tp_Nanobot/src/Juego.cpp
+	"Juego.h"
+	"Constants.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Lista.cpp
+	"Lista.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Menu.cpp
+	<iostream>
+	"Menu.h"
+	"Funciones.h"
+
+1574710548 /home/tomas/Documentos/Tp_Nanobot/include/Menu.h
+	"Funciones.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Nanobot.cpp
+	"Nanobot.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Nodo.cpp
+	"Nodo.h"
+
+1574711131 source:/home/tomas/Documentos/Tp_Nanobot/src/Organismos.cpp
+	"Organismos.h"
+
+1574710548 source:/home/tomas/Documentos/Tp_Nanobot/src/Textura.cpp
+	"Textura.h"
+	<iostream>
+

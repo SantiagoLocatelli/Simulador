@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tp_Nanobot" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Tp_Nanobot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Tp_Nanobot" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Anticuerpo.h" />
+		<Unit filename="include/Celula.h" />
+		<Unit filename="include/CelulaS.h" />
+		<Unit filename="include/CelulaX.h" />
+		<Unit filename="include/CelulaY.h" />
+		<Unit filename="include/CelulaZ.h" />
+		<Unit filename="include/Constants.h" />
+		<Unit filename="include/Dosis.h" />
+		<Unit filename="include/DosisA.h" />
+		<Unit filename="include/DosisB.h" />
+		<Unit filename="include/Elementos.h" />
+		<Unit filename="include/Entorno.h" />
+		<Unit filename="include/FPSManager.h" />
+		<Unit filename="include/Funciones.h" />
+		<Unit filename="include/ImageLoader.h" />
+		<Unit filename="include/InputManager.h" />
+		<Unit filename="include/InputTable.h" />
+		<Unit filename="include/Juego.h" />
+		<Unit filename="include/Lista.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Nanobot.h" />
+		<Unit filename="include/Nodo.h" />
+		<Unit filename="include/Organismos.h" />
+		<Unit filename="include/Textura.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Anticuerpo.cpp" />
+		<Unit filename="src/Celula.cpp" />
+		<Unit filename="src/CelulaS.cpp" />
+		<Unit filename="src/CelulaX.cpp" />
+		<Unit filename="src/CelulaY.cpp" />
+		<Unit filename="src/CelulaZ.cpp" />
+		<Unit filename="src/Dosis.cpp" />
+		<Unit filename="src/DosisA.cpp" />
+		<Unit filename="src/DosisB.cpp" />
+		<Unit filename="src/Elementos.cpp" />
+		<Unit filename="src/Entorno.cpp" />
+		<Unit filename="src/FPSManager.cpp" />
+		<Unit filename="src/Funciones.cpp" />
+		<Unit filename="src/ImageLoader.cpp" />
+		<Unit filename="src/InputManager.cpp" />
+		<Unit filename="src/Juego.cpp" />
+		<Unit filename="src/Lista.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Nanobot.cpp" />
+		<Unit filename="src/Nodo.cpp" />
+		<Unit filename="src/Organismos.cpp" />
+		<Unit filename="src/Textura.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
